@@ -1,7 +1,8 @@
 #Author: Patrick Shapard
 #Created: 03/27/2020
-#Updated: 03/31/2020
+#Updated: 04/03/2020
 #This script is used to calulate the mortality rate of the corona virus for a country or worldwide
+#The data is pulled from 
 
 import time
 import sys
@@ -11,7 +12,6 @@ from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
-import sys
 import requests
 from bs4 import BeautifulSoup
 
@@ -19,13 +19,11 @@ print(f'Version of class module {ClassesFuncs.__version__}')
 print(f'Author of class module {ClassesFuncs.__author__}')
 
 
-filename = 'CoronaVirus_Calc'
-TimeStamp = time.strftime("%m_%d_%Y")
+file_name = 'CoronaVirus_Calc'
+TimeStamp = time.strftime("%Y_%m_%d_%H%M%S")
 #outputFile = 'debug_script.txt'
 outputFile = 'TestResults.txt'
 
-#print(help(str))
-#print(help(str))
 
 def islength(var1):
     count = len(var1)
@@ -93,16 +91,38 @@ def CreateFile(virus_rate, country, num_cases, num_deaths):
         f.write("\n{}: {}: Total cases: {}, Total deaths: {}, Death rate: {}%" .format(TimeStamp, country, num_cases, num_deaths, virus_rate))
         logging.info("{}: Total cases: {}, Total deaths: {}, Death rate: {}%" .format(country, num_cases, num_deaths, virus_rate))
 
-
+def OutPutToCountryLog():
+    filename = 'TestResults.txt'
+    
+    output_file = {'World':'logfile_world.txt',
+                   'Us':'logfile_usa.txt',
+                   'France':'logfile_france.txt',
+                   'Spain':'logfile_spain.txt',
+                   'Germany':'logfile_germany.txt',
+                   'Uk':'logfile_uk.txt',
+                   'Iran':'logfile_iran.txt',
+                   'Italy':'logfile_italy.txt'}
+    
+    for string, logfile in output_file.items():
+        with open(filename) as outf:
+            datafile = outf.readlines()
+            string_found = [line for line in datafile if string in line]
+            with open(logfile, 'w') as inf:
+                for line in string_found:
+                    inf.write(line)
 
 def main():
-    ClassesFuncs.setup_logging_Enhanced(filename)
+    ClassesFuncs.setup_logging_Enhanced(file_name)
     list_of_country = ['world','us','italy','france','iran','uk','germany','spain']
-    for country in list_of_country:
-        country, num_cases, num_deaths= AnalyzeCoronaVirus(country)
-        virus_rate= CalcTheRate(num_cases, num_deaths)
-        CreateFile(virus_rate, country.capitalize(), num_cases, num_deaths)
+    while True:
+        for country in list_of_country:
+            country, num_cases, num_deaths= AnalyzeCoronaVirus(country)
+            virus_rate= CalcTheRate(num_cases, num_deaths)
+            CreateFile(virus_rate, country.capitalize(), num_cases, num_deaths)
 
+        OutPutToCountryLog()
+        logging.info("Pausing 60 mins before fetching new data")
+        ClassesFuncs.countdown(3600)
 
 
 
