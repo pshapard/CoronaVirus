@@ -2,7 +2,7 @@
 #Created: 03/27/2020
 #Updated: 04/03/2020
 #This script is used to calulate the mortality rate of the corona virus for a country or worldwide
-#The data is pulled from 
+#The data is pulled from https://www.worldometers.info website
 
 import time
 import sys
@@ -20,12 +20,14 @@ print(f'Author of class module {ClassesFuncs.__author__}')
 
 
 file_name = 'CoronaVirus_Calc'
-TimeStamp = time.strftime("%Y_%m_%d_%H%M%S")
+TimeStamp = time.strftime("%m_%d_%Y_%H%M%S")
 #outputFile = 'debug_script.txt'
 outputFile = 'TestResults.txt'
 
 
 def islength(var1):
+    """Function to check the variable length of the Total cases, 
+       total death cases and total recovered cases."""
     count = len(var1)
     if 39 <= count <= 40:
         return (var1[25:32])
@@ -45,6 +47,7 @@ def islength(var1):
         return (var1[6:9])
 
 def Get_data_per_country(url_link, country):
+    """Parses the data from url_link and returns two variables """
     stats = []
     URL = url_link
     page = requests.get(URL)
@@ -70,8 +73,9 @@ def Get_data_per_country(url_link, country):
     except ValueError:
         print("The variable is not an integer")
 
-
 def AnalyzeCoronaVirus(country):
+    """Connects to the url and downloads the data and returns 
+       value for country, total cases and death cases  """
     if country == 'world':
         url_link = 'https://www.worldometers.info/coronavirus/'
         num_cases, num_deaths = Get_data_per_country(url_link, country)
@@ -80,18 +84,23 @@ def AnalyzeCoronaVirus(country):
         num_cases, num_deaths = Get_data_per_country(url_link, country)
     return country, num_cases, num_deaths
 
-def CalcTheRate( num_cases, num_deaths):
+def CalcTheRate(num_cases, num_deaths):
+    """Receives two variables and calculates the death rate and returns death rate """
     rate_obj = ClassesFuncs.CalcMortalRate(num_cases, num_deaths)
     virus_rate_raw = (rate_obj.calc())
     virus_rate = (format(virus_rate_raw, '.2f'))
     return virus_rate
 
 def CreateFile(virus_rate, country, num_cases, num_deaths):
+    """Receives 3 variables.  Opens main log file and writes the variables for each country """
     with open(outputFile, 'a') as f:
         f.write("\n{}: {}: Total cases: {}, Total deaths: {}, Death rate: {}%" .format(TimeStamp, country, num_cases, num_deaths, virus_rate))
         logging.info("{}: Total cases: {}, Total deaths: {}, Death rate: {}%" .format(country, num_cases, num_deaths, virus_rate))
 
 def OutPutToCountryLog():
+    """Open and reads main log file, TestResults.txt
+       Searches main log file and retrieves data for each country
+       and outputs the data to each country's log file """
     filename = 'TestResults.txt'
     
     output_file = {'World':'logfile_world.txt',
