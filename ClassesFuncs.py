@@ -1,5 +1,5 @@
 #Created: 03/27/2020
-#Updated: 03/27/2020
+#Updated: 04/03/2020
 #Module for corona virus classes and functions
 
 import sys
@@ -10,12 +10,13 @@ __version__ = '1.03'
 __author__ = 'Patrick R. Shapard'
 
 class CalcMortalRate(object):
-    
+    """Class object to calculate corona virus death rate in %. """
     def __init__(self, num_cases, num_deaths):
         self.num_cases = num_cases
         self.num_deaths = num_deaths
     
     def calc(self):
+        """Function calculates the corona virus death rate. """
         try:
             return ((self.num_deaths/self.num_cases)*100)
         except ZeroDivisionError:
@@ -24,6 +25,7 @@ class CalcMortalRate(object):
 
 
 def create_log_file(filename, level=logging.DEBUG):
+    """Function creates log files and is used in setup_logging_Enhanced(file). """
     TimeStamp = time.strftime("%Y%m%d_%H%M%S")
     handler = logging.FileHandler(filename)
     handler.setLevel(level)
@@ -33,7 +35,8 @@ def create_log_file(filename, level=logging.DEBUG):
 
 
 def setup_logging_Enhanced(file):
-    #Set up logging
+    """Function setups logging function with 4 logging levels:
+       DEBUG, WARNING, ERROR, INFO. """
     #components = ('_' + enc + '_' + version + '_' + carbon_fw)
     components = ('_' + file)
     logging.getLogger('').setLevel(logging.DEBUG)
@@ -60,6 +63,7 @@ def setup_logging_Enhanced(file):
     requests_log.propagate = True
 
 def countdown(t):
+    """Timer function, receives 1 variable in seconds """
     while t:
         mins, secs = divmod(t, 60)
         timeformat = '{:02d}:{:02d}'.format(mins, secs)
