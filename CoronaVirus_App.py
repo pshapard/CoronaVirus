@@ -20,7 +20,6 @@ print(f'Author of class module {ClassesFuncs.__author__}')
 
 
 file_name = 'CoronaVirus_Calc'
-TimeStamp = time.strftime("%m_%d_%Y_%H%M%S")
 #outputFile = 'debug_script.txt'
 outputFile = 'TestResults.txt'
 
@@ -92,7 +91,8 @@ def CalcTheRate(num_cases, num_deaths):
     return virus_rate
 
 def CreateFile(virus_rate, country, num_cases, num_deaths):
-    """Receives 3 variables.  Opens main log file and writes the variables for each country """
+    """Receives 3 variables.  Opens main log file and writes the variables in each country log"""
+    TimeStamp = time.strftime("%m_%d_%Y_%H%M%S")
     with open(outputFile, 'a') as f:
         f.write("\n{}: {}: Total cases: {}, Total deaths: {}, Death rate: {}%" .format(TimeStamp, country, num_cases, num_deaths, virus_rate))
         logging.info("{}: Total cases: {}, Total deaths: {}, Death rate: {}%" .format(country, num_cases, num_deaths, virus_rate))
@@ -131,7 +131,7 @@ def main():
 
         OutPutToCountryLog()
         logging.info("Pausing 60 mins before fetching new data")
-        ClassesFuncs.countdown(3600)
+        ClassesFuncs.countdown(60)
 
 
 
