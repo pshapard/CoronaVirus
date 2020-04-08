@@ -1,12 +1,12 @@
 # Created: 03/27/2020
-# Updated: 04/03/2020
+# Updated: 04/07/2020
 # Module for corona virus classes and functions
 
 import sys
 import logging
 import time
 
-__version__ = '1.07'
+__version__ = '1.08'
 __author__ = 'Patrick R. Shapard'
 
 
