@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from coronavirus.ClassesFuncs import CalcRate
 from coronavirus.ClassesFuncs import setup_logging_Enhanced
+from coronavirus.ClassesFuncs import countdown
 
 
 url_link = 'https://www.worldometers.info/coronavirus/country/us/'
@@ -39,6 +40,7 @@ def Get_data_per_state(url_link):
             elif idx == 1:
                 num_cases = int(value)
             elif idx == 2:
+                num_deaths = str(value)
                 if num_deaths != '':
                     num_deaths = int(value)
                 else:
