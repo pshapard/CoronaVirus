@@ -1,0 +1,89 @@
+03_28_2020: Italy: Total cases: 92472, Total deaths: 10023, Death rate: 10.84%
+03_29_2020: Italy: Total cases: 97689, Total deaths: 10779, Death rate: 11.03%
+03_29_2020: Italy: Total cases: 97689, Total deaths: 10779, Death rate: 11.03%
+03_30_2020: Italy: Total cases: 101739, Total deaths: 11591, Death rate: 11.39%
+03_31_2020: Italy: Total cases: 101739, Total deaths: 11591, Death rate: 11.39%
+03_31_2020: Italy: Total cases: 105792, Total deaths: 12428, Death rate: 11.75%
+03_31_2020: Italy: Total cases: 105792, Total deaths: 12428, Death rate: 11.75%
+04_01_2020: Italy: Total cases: 105792, Total deaths: 12428, Death rate: 11.75%
+04_01_2020: Italy: Total cases: 110574, Total deaths: 13155, Death rate: 11.90%
+04_02_2020: Italy: Total cases: 110574, Total deaths: 13155, Death rate: 11.90%
+04_02_2020: Italy: Total cases: 115242, Total deaths: 13915, Death rate: 12.07%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020_231538: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_03_2020_231538: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 119827, Total deaths: 14681, Death rate: 12.25%
+04_04_2020_023227: Italy: Total cases: 124632, Total deaths: 15362, Death rate: 12.33%
+04_04_2020_121523: Italy: Total cases: 124632, Total deaths: 15362, Death rate: 12.33%
+04_04_2020_121832: Italy: Total cases: 124632, Total deaths: 15362, Death rate: 12.33%
+04_04_2020_121936: Italy: Total cases: 124632, Total deaths: 15362, Death rate: 12.33%
+04_04_2020_122041: Italy: Total cases: 124632, Total deaths: 15362, Death rate: 12.33%
+04_04_2020_140802: Italy: Total cases: 124632, Total deaths: 15362, Death rate: 12.33%
+04_04_2020_150118: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04_04_2020_153123: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04_04_2020_160126: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04_04_2020_163130: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04_04_2020_170134: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/04/2020_18:12:26: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/04/2020_18:14:28: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/04/2020_20:14:35: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/04/2020_22:14:40: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/05/2020_00:14:46: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/05/2020_02:15:36: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/05/2020_04:15:46: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/05/2020_06:15:51: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/05/2020_08:15:57: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/05/2020_10:16:04: Italy: Total cases: 124632, Total deaths: 15362, Total Reovered: 20996, Death rate: 12.33%, Recovery Rate: 16.85
+04/05/2020_12:16:10: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92
+04/05/2020_13:17:07: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/05/2020_16:17:14: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/05/2020_19:17:30: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/05/2020_22:17:37: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/06/2020_01:17:42: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/06/2020_04:17:49: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/06/2020_07:17:57: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/06/2020_10:18:13: Italy: Total cases: 128948, Total deaths: 15887, Total Reovered: 21815, Death rate: 12.32%, Recovery Rate: 16.92%
+04/06/2020_13:18:52: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/06/2020_16:18:58: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/06/2020_19:19:05: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/06/2020_22:19:26: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/07/2020_01:19:34: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/07/2020_04:20:25: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/07/2020_07:20:33: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/07/2020_10:20:40: Italy: Total cases: 132547, Total deaths: 16523, Total Reovered: 22837, Death rate: 12.47%, Recovery Rate: 17.23%
+04/07/2020_13:20:51: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/07/2020_16:20:59: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/07/2020_19:21:08: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/07/2020_22:21:17: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/08/2020_01:21:25: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/08/2020_04:21:34: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/08/2020_07:21:44: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/08/2020_10:22:05: Italy: Total cases: 135586, Total deaths: 17127, Total Reovered: 24392, Death rate: 12.63%, Recovery Rate: 17.99%
+04/08/2020_13:22:15: Italy: Total cases: 139422, Total deaths: 17669, Total Reovered: 26491, Death rate: 12.67%, Recovery Rate: 19.00%
+04/08/2020_16:22:25: Italy: Total cases: 139422, Total deaths: 17669, Total Reovered: 26491, Death rate: 12.67%, Recovery Rate: 19.00%
+04/08/2020_19:22:32: Italy: Total cases: 139422, Total deaths: 17669, Total Reovered: 26491, Death rate: 12.67%, Recovery Rate: 19.00%
