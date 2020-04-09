@@ -9,12 +9,13 @@ import time
 import logging
 import requests
 from bs4 import BeautifulSoup
-from coronavirus import ClassesFuncs
+from coronavirus.ClassesFuncs import CalcRate
+from coronavirus.ClassesFuncs import setup_logging_Enhanced
 
 
 url_link = 'https://www.worldometers.info/coronavirus/country/us/'
 outputFile = 'States_TestResults.txt'
-file_name = 'WebParser_States'
+file_name = 'CoronaVirsCalc_States'
 
 
 def Get_data_per_state(url_link):
@@ -38,7 +39,6 @@ def Get_data_per_state(url_link):
             elif idx == 1:
                 num_cases = int(value)
             elif idx == 2:
-                num_deaths = str(value)
                 if num_deaths != '':
                     num_deaths = int(value)
                 else:
@@ -54,7 +54,7 @@ def Get_data_per_state(url_link):
 
 def CalcTheRate(num_cases, num_deaths):
     """Receives three variables. calculates and returns the death and recover rates. """
-    rate_obj = ClassesFuncs.CalcRate(num_cases, num_deaths)
+    rate_obj = CalcRate(num_cases, num_deaths)
     death_rate_raw = (rate_obj.death())
     death_rate = (format(death_rate_raw, '.2f'))
     return death_rate
@@ -87,7 +87,7 @@ def OutPutToStateLog(state):
 
 
 def main():
-    ClassesFuncs.setup_logging_Enhanced(file_name)
+    setup_logging_Enhanced(file_name)
     Get_data_per_state(url_link)
 
 
