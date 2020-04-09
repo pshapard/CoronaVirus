@@ -1,2 +1,2 @@
 # CoronaVirus
-Python script developed to pull down live data from a website and analyze the data for the top 7 copuntries
+Python script developed to pull down live data from https://www.worldometers.info/coronavirus/#countries website and analyze the data for the top 7 copuntries.  The script will get the total number of cases, total number of deaths per country, along with a  function will calculate the death % and output the to a file.  From this file, the script will look for for keyword, the country, an output to stats for that country in it's own file
